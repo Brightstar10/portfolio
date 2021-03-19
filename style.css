@@ -1,0 +1,146 @@
+
+/* html root */
+*{
+    padding: 0px;
+    margin: 0px; 
+    box-sizing: border-box;
+  }
+  
+  /* sreen size */
+  @media screen and (max-width: 600px){
+    #navbar {
+      border-bottom: 1px solid gray;
+    }
+  }
+  #welcome-section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color:#fff;
+    text-align: center;
+  }
+  
+  /* section */
+  
+  #projects {
+    background-color: blue;
+    color: white;
+    text-align: center;
+   
+    #projects .project-tile >a {
+      text-align: left;
+    }
+  }
+  #projects h2{
+    padding-top: 20px;
+    display: inline-block;
+    border-bottom: 1px solid gray;
+  }
+  
+  #projects p >a {
+    color: white;
+  }
+  
+  
+  /* #navbar */
+  #navbar {
+    position: fixed;
+    height: 40px;
+    background-color: red;
+    width:100%;
+  }
+  
+  #navbar ul{
+    background-color: red;
+    display: flex;
+    list-style: none;
+    height: 100%;
+    width: 100%;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+  #navbar ul li{
+  margin-right: 30px;}
+  #navbar ul li >a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  /* boxes */
+  #boxes {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+    color: white;
+    padding: 30px;
+  }
+  
+  #boxes h1{
+    white-space: nowrap;
+    text-align: center;
+    border-bottom: 1px solid black;
+    background-color: black;
+    
+  }
+  
+  .img-wrapper{
+    height: 250px;
+  }
+  
+  #boxes img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  /* media-contact */
+  #media-contact  {
+    background-color: darkgray;
+    color: white;
+     text-align: center;
+  }
+  
+  #media-contact .speech {
+    padding-top: 20px;
+    color: white;
+    font-size: 30px;
+  }
+  
+  #media-contact .speech >h1 >a {
+    text-decoration: none;
+  }
+  
+  
+  #media-contact .social{
+    display: flex; 
+    justify-content: center;
+    
+  }
+  
+  #media-contact .social .social-me{
+    margin:20px;
+  }
+  
+  #media-contact .social .social-media{
+    display: flex;
+  }
+  
+  #media-contact .social .social-media h2{
+    margin-right:4px;
+  }
+  
+  .social-media> img {
+    height: 30px;
+  }
+  
+  #main-contact .social-me >  .space  >a {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .footer {
+    color: black;
+  }
